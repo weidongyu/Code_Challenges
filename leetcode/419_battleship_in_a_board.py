@@ -1,4 +1,4 @@
-class Solution():
+class Solution(object):
     def countShips(self, board):
         counter = 0
         for r in range(len(board)):

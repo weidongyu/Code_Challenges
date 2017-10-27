@@ -1,4 +1,4 @@
-class Solution():
+class Solution(object):
     def find(self, matrix, target):
         if matrix == []:
             return False

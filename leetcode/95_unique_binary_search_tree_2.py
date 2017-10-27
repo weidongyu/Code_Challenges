@@ -4,7 +4,7 @@ class TreeNode():
         self.left = None
         self.right = None
 
-class Solution():
+class Solution(object):
     # no memorization
     def generate(self,n):
         if n == 0:
